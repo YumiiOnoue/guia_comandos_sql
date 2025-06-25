@@ -105,3 +105,6 @@ FROM clientes;
 ```sql
 -- em andamento
 ```
+
+---
+Qualquer dúvida ou sugestão será muito bem vinda!! 😊
