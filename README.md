@@ -107,4 +107,4 @@ FROM clientes;
 ```
 
 ---
-Qualquer dúvida ou sugestão será muito bem vinda!! 😊
+Qualquer dúvida ou sugestão será muito bem-vinda! 😊
