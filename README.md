@@ -147,8 +147,28 @@ RIGHT JOIN
 
 Subconsulta é uma consulta dentro de outra consulta, geralmente utilizada para filtrar ou manipular dados de forma mais complexa. Ela pode aparecer em várias partes de uma instrução SQL, como dentro da cláusula WHERE, FROM, SELECT, ou HAVING
 
+* Dentro da cláusula SELECT:
+
 ```sql
--- em desenvolvimento
+
+```
+
+* Dentro da cláusula FROM:
+
+```sql
+
+```
+
+* Dentro da cláusula WHERE:
+
+```sql
+
+```
+
+* Dentro da cláusula HAVING:
+
+```sql
+
 ```
 
 ---
