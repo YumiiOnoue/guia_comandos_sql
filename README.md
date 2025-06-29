@@ -102,8 +102,53 @@ FROM clientes;
 
 ## Unindo Tabelas
 
+Uma JOIN é uma cláusula SQL usada para combinar linhas de duas ou mais tabelas com base em uma coluna relacionada
+
+* INNER JOIN (retorna registros com valores correspondentes em ambas as tabelas)
+
 ```sql
--- em andamento
+SELECT
+  tab_A.name AS tab_A_name,
+  tab_B.name AS tab_B_name
+FROM
+  tabela_A AS tab_A
+INNER JOIN
+  tabela_B AS tab_B
+  ON tab_A.id = tab_B.id
+```
+
+* LEFT JOIN (retorna todos os registros da tabela da esquerda e somente os registros correspondentes da tabela da direita)
+
+```sql
+SELECT
+  tab_A.name AS tab_A_name,
+  tab_B.name AS tab_B_name
+FROM
+  tabela_A AS tab_A
+LEFT JOIN
+  tabela_B AS tab_B
+  ON tab_A.id = tab_B.id
+```
+
+* RIGHT JOIN (retorna todos os registros da tabela da direita e apenas os registros correspondentes da tabela da esquerda)
+
+```sql
+SELECT
+  tab_A.name AS tab_A_name,
+  tab_B.name AS tab_B_name
+FROM
+  tabela_A AS tab_A
+RIGHT JOIN
+  tabela_B AS tab_B
+  ON tab_A.id = tab_B.id
+```
+
+## Subconsultas
+
+Subconsulta é uma consulta dentro de outra consulta, geralmente utilizada para filtrar ou manipular dados de forma mais complexa. Ela pode aparecer em várias partes de uma instrução SQL, como dentro da cláusula WHERE, FROM, SELECT, ou HAVING
+
+```sql
+-- em desenvolvimento
 ```
 
 ---
